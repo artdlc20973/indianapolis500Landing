@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  color: #ff8499;
+  font-size: 1.8em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+body {
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Helio_castroneves_%2851222190794%29.jpg/880px-Helio_castroneves_%2851222190794%29.jpg')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 1.1em;
+  color: #61b8ff;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.nav li a:hover {
+  color: #ff8499;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 275px auto;
+}
+
+h1 {
+  color: #ff8499;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+p {
+  color: #61b8ff3a;
+  line-height: 1.7;
+  margin: 1.2em 4em;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  padding-bottom: 2em;
+  cursor: pointer;
+}
+
+p:hover {
+  color: #61b8ff;
+}
+
+button {
+  background: #ff84994f;
+  color: #fff;
+  padding: 12px 45px;
+  border: none;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  transition: all .6s ease-in-out;
+}
+
+
+button:hover {
+  background: #61b8ff4b;
+  transform: translateY(9px);
+  border-radius: 25px;
+}
+
